@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RPG</title>
+    <div class=container>
+        <div class="text-center">
+            <h1>Fight Club</h1>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Select a charcter -->
+    <div class="container txt-center"><div id="title" class="txt-center"">Pick your character</div>
+        <div class="row"> 
+            <div class="col-md-1"></div>
+            <div id="0" class="pick col-md-2"></div>
+            <div id="1" class="pick col-md-2"></div>
+            <div id="2" class="pick col-md-2"></div>
+            <div id="3" class="pick col-md-2"></div>
+            <div id="4" class="pick col-md-2"></div>
+            <!-- <div id="5" class="pick col-md-2"></div> -->
+        </div>
+    </div>
+    <!-- Select an opponent -->
+
+    <!-- vs area -->
+    <!-- Enemy -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">Enemy: </div>
+            <div id="enemy" class="col-md-2"><span class="marg-50" id="enemyhp"></span></div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+    <!-- VS  & attack button -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5"><button style="display: none;" class="w-125 bg-red c-black h-100" id="att">Attack!</button></div>
+            <div class="col-md-2 marg-5"> VS </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+    <!-- You -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">You: </div>
+            <div id="you" class="col-md-2"><span class="marg-50" id="youhp"></span></div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="assets/js/game.js"></script>
+
+</html>
